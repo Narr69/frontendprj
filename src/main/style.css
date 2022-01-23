@@ -2,12 +2,7 @@ body {
   background-color: black;
   font-family: '8BIT WONDER', sans-serif;                                        
   size: 30px;
-  margin: 0;d
-}
-.title1 {
-  color: aquamarine;
-  font-size: large;
-  size: 500px;
+  margin: 0;
 }
 
 .title2 {
@@ -18,13 +13,7 @@ body {
   color: antiquewhite;
   fill: #00ffff;
 }
-button {
-  color: rgb(234, 0, 255);
-  border-color: black;
-  background-color: rgb(65, 65, 65);
-  padding-right: 0%;
-  padding-left: 0;
-}
+
 a{
   text-decoration: none;
   color:white;
@@ -34,7 +23,7 @@ a{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: gray;
+  background-color: rgb(34, 34, 34);
   padding: 8px 12px;
 }
 
