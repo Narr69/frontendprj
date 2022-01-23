@@ -1,13 +1,9 @@
 body {
   background-color: black;
   font-family: '8BIT WONDER', sans-serif;                                        
-  size: 30px;
-  margin: 0;d
-}
-.title1 {
-  color: aquamarine;
-  font-size: large;
-  size: 500px;
+  size: 50px;
+  margin: 0;
+  color: white;
 }
 
 .title2 {
@@ -18,13 +14,7 @@ body {
   color: antiquewhite;
   fill: #00ffff;
 }
-button {
-  color: rgb(234, 0, 255);
-  border-color: black;
-  background-color: rgb(65, 65, 65);
-  padding-right: 0%;
-  padding-left: 0;
-}
+
 a{
   text-decoration: none;
   color:white;
@@ -32,19 +22,26 @@ a{
 
 .navbar {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: gray;
-  padding: 8px 12px;
+  align-items: left;
+  background-color: rgb(34, 34, 34);
+  padding: 4px 12px;
+  margin: 0;
+  nav-left: 0;
 }
 
 .navbar_menu {
   display: flex;
   list-style: none;
   padding-left: 0;
-
 }
 
 .navbar_menu li{
-  padding: 10% 10%;
+  padding: 10% 5%;
+}
+
+.p1{
+  font-size: 100px;
+  text-align: right;
+  margin: 2% 50%;
+  color: darkgreen;
 }
