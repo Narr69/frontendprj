@@ -1,9 +1,13 @@
 body {
   background-color: black;
+  font-family: '8BIT WONDER', sans-serif;                                        
+  size: 30px;
+  margin: 0;d
 }
 .title1 {
   color: aquamarine;
   font-size: large;
+  size: 500px;
 }
 
 .title2 {
@@ -12,5 +16,35 @@ body {
 
 .icon1 {
   color: antiquewhite;
-  fill: aqua;
+  fill: #00ffff;
+}
+button {
+  color: rgb(234, 0, 255);
+  border-color: black;
+  background-color: rgb(65, 65, 65);
+  padding-right: 0%;
+  padding-left: 0;
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gray;
+  padding: 8px 12px;
+}
+
+.navbar_menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+
+}
+
+.navbar_menu li{
+  padding: 10% 10%;
 }
