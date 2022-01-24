@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  font-family: '8BIT WONDER', sans-serif;                                        
+  font-family: "8BIT WONDER", sans-serif;
   size: 50px;
   margin: 0;
   color: white;
@@ -15,9 +15,9 @@ body {
   fill: #00ffff;
 }
 
-a{
+a {
   text-decoration: none;
-  color:white;
+  color: white;
 }
 
 .navbar {
@@ -35,13 +35,25 @@ a{
   padding-left: 0;
 }
 
-.navbar_menu li{
+.navbar_menu li {
   padding: 10% 5%;
 }
 
-.p1{
+.p1 {
   font-size: 100px;
-  text-align: right;
-  margin: 2% 50%;
+  text-align: left;
   color: darkgreen;
+}
+
+.content {
+  margin: 0% 1%;
+}
+
+.contact {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.contact li {
+  padding: 2% 2%;
 }
