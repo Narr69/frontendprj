@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 li {
   all: unset;
 }
@@ -11,6 +14,7 @@ body {
   size: 50px;
   margin: 0;
   color: white;
+  height: 4000px;
 }
 
 .title2 {
