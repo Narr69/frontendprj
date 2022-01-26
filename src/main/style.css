@@ -1,3 +1,10 @@
+li {
+  all: unset;
+}
+a {
+  all: unset;
+}
+
 body {
   background-color: black;
   font-family: "8BIT WONDER", sans-serif;
@@ -15,11 +22,6 @@ body {
   fill: #00ffff;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
-
 .navbar {
   display: flex;
   align-items: left;
@@ -31,8 +33,10 @@ a {
 
 .navbar_menu {
   display: flex;
-  list-style: none;
+  /* list-style: none; */
   padding-left: 0;
+  max-width: 100%;
+  height: auto;
 }
 
 .navbar_menu li {
@@ -43,16 +47,24 @@ a {
   font-size: 100px;
   text-align: left;
   color: darkgreen;
+  background: linear-gradient(145deg, #ffffff 0%, rgba(12, 12, 12, 0.137) 75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .content {
   margin: 0% 1%;
+  max-width: 100%;
+  height: auto;
 }
 
 .contactMain {
   color: aquamarine;
+  max-width: 100%;
+  height: auto;
 }
-
+.doing {
+}
 .contact {
   color: pink;
   display: flex;
@@ -61,4 +73,14 @@ a {
 }
 .contact li {
   padding: 2% 2%;
+}
+
+.eve_logo {
+  max-width: 50%;
+  height: auto;
+}
+
+.bu_logo {
+  max-width: 50%;
+  height: auto;
 }
