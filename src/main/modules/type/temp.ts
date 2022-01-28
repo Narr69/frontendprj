@@ -6,4 +6,3 @@ let user: string = "Jane User";
 document.body.textContent = say_hello(user);
 
 
- 
