@@ -61,3 +61,9 @@ function go_to_doing(){
 function go_to_done(){
     document.getElementById('id_done').scrollIntoView();
 }
+function go_to_learning(){
+    document.getElementById('id_learning').scrollIntoView();
+}
+function go_to_contact(){
+    document.getElementById('id_sec_contact').scrollIntoView();
+}

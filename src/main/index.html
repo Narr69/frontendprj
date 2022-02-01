@@ -19,15 +19,16 @@
             <li><a href="#">Home</a></li>
             <li><a onclick="return go_to_doing()">Doing</a></li>
             <li><a onclick="return go_to_done()">Done</a></li>
-            <li><a href="https://docs.soliditylang.org/en/v0.8.11/">Learning</a></li>
-            <li><a href="https://www.linkedin.com/in/mino-jang-3a53b914b/">Contact</a></li>
+            <li><a onclick="return go_to_learning()">Learning</a></li>
+            <li><a onclick="return go_to_contact()">Contact</a></li>
         </div>
     </nav>
     <section class="content">
         <section class="intro">
             <h1 class="p1" id="mytext" >Glad to Meet You</h1>
+            <button>see summary</button>
+            <p>I'm currently working as a technical artist in Korean game industry</p>
         </section>
-        <td></td>
         <section class="doing" id="id_doing">
             <button onclick="return doing_open_close_shelve_cond()">Doing</button>
             <h2 id="h2_doing"></h2>
@@ -44,7 +45,7 @@
                 <img src="./icons/bu_logo.png" id="id_bu_logo" class="bu_logo">
             </a>
         </section>
-        <section class="learning">
+        <section class="learning" id="id_learning">
             <h2>learning</h2>
         </section>
         <h2 class="contactMain">
@@ -71,11 +72,11 @@
                     <img src="./icons/instagram_icon.png" width="100" height="100">
                 </a>
             </li>
+            <p>email : minomi7029@gmail.com</p>
+            <p>email : narrchan69@gmail.com</p>
         </section>
     </section>
-    <p>email : minomi7029@gmail.com</p>
-    <p>email : narrchan69@gmail.com</p>
+
 </body>
-<a href="#">to the top</a>
 </html>
 
