@@ -2,6 +2,8 @@
 // const style_logo = eve_logo.style.display
 const str_role = "Tehnical Artist at : "
 const str_none = ""
+
+
 function open_close_shelve() {
     let eve_logo = document.getElementById('id_eve_logo');
     let h2_doing = document.getElementById('h2_doing');
@@ -36,7 +38,17 @@ function done_open_close_shelve_cond() {
         bu_logo.style.display = 'none';
         h2_done.textContent = str_none;
     }
-    
+}
+
+function summary_open_close_shelve_cond(){
+    let summary_sub = document.getElementById('id_summary_sub');
+
+    if (summary_sub.style.opacity == '1') {
+        summary_sub.style.opacity = '0';
+    }
+    else{
+        summary_sub.style.opacity = '1';
+    }
 }
 
 function contact_open_close_shelve_cond() {
