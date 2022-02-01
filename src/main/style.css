@@ -13,7 +13,7 @@ a {
   padding: 2%;
 }
 a:hover {
-  /* background: black; */
+  background: black;
   color: blueviolet;
   transition-duration: 0.3s;
 }
@@ -51,7 +51,7 @@ body {
 .navbar {
   display: flex;
   align-items: center;
-  background-color: rgba(34, 34, 34, 0.651);
+  background-color: rgb(34, 34, 34);
   /* padding: 4px 12px; */
   margin: 0;
   nav-left: 0;
@@ -68,7 +68,7 @@ body {
 }
 
 .navbar_menu li {
-  padding: 10% 5%;
+  padding: 10% 2%;
 }
 
 .p1 {
@@ -103,17 +103,23 @@ body {
 }
 
 #id_eve_logo {
-  display: none;
+  opacity: 0;
+  transition-duration: 0.3s;
 }
+
 #id_bu_logo {
-  display: none;
+  opacity: 0;
+  transition-duration: 0.3s;
 }
 #id_summary_sub {
   opacity: 0;
   transition-duration: 0.3s;
   animation: shelveComeOut 3s ease;
 }
-
+#id_sec_contact {
+  transition-duration: 0.5s;
+  opacity: 0;
+}
 .content {
   margin: 0% 1%;
   max-width: 100%;
@@ -126,7 +132,6 @@ body {
 }
 .contact {
   color: white;
-  display: none;
   padding: 5% 5%;
   height: auto;
 }

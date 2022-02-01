@@ -17,21 +17,21 @@
         </div>
         <div class="navbar_menu">
             <li><a href="#">Home</a></li>
-            <li><a onclick="return go_to_doing()">Doing</a></li>
-            <li><a onclick="return go_to_done()">Done</a></li>
-            <li><a onclick="return go_to_learning()">Learning</a></li>
-            <li><a onclick="return go_to_contact()">Contact</a></li>
+            <li><a onclick="return fn_go_to('id_doing')">Doing</a></li>
+            <li><a onclick="return fn_go_to('id_done')">Done</a></li>
+            <li><a onclick="return fn_go_to('id_learning')">Learning</a></li>
+            <li><a onclick="return fn_go_to('id_sec_contact')">Contact</a></li>
         </div>
     </nav>
     <section class="content">
         <section class="intro">
             <h1 class="p1" id="mytext" >Glad to Meet You</h1>
-            <button id="id_summary" onclick="return summary_open_close_shelve_cond()">see summary
+            <button id="id_summary" onclick="return fn_transition('id_summary_sub')">see summary
                 <div id="id_summary_sub">뭐시기가 어쩌구...뭐시깽이가 저쩌구...</div>
             </button>
         </section>
         <section class="doing" id="id_doing">
-            <button onclick="return doing_open_close_shelve_cond()">Doing</button>
+            <button onclick="return fn_transition('id_eve_logo')">Doing</button>
             <h2 id="h2_doing"></h2>
             <li class="eve_logo" id="id_eve_logo">
                 <a href="https://eve.shiftup.co.kr">
@@ -40,7 +40,7 @@
             </li>
         </section>
         <section class="done" id="id_done">
-            <button onclick="return done_open_close_shelve_cond()"">Done</button>
+            <button onclick="return fn_transition('id_bu_logo')">Done</button>
             <h2 id="h2_done"></h2>
             <li id="id_bu_logo" class="bu_logo">
                 <a href="https://blessunleashed.com/">
@@ -48,11 +48,15 @@
                 </a>
             </li>
         </section>
-        <section class="learning" id="id_learning">
-            <h2>learning</h2>
+        <section class="skills" id="id_skills">
+            <button>Skills</button>
+            <li>
+                <a href="https://github.com/MINOMINOMI/ScriptSet" class="">DCC Scripts</a>
+                <a href="#" class="">Unreal Engine</a>
+            </li>
         </section>
         <h2 class="contactMain">
-            <button onclick="return contact_open_close_shelve_cond()">Contact</button>
+            <button onclick="return fn_transition('id_sec_contact')">Contact</button>
         </h2>
         <section class="contact" id="id_sec_contact">
             <li>

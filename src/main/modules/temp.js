@@ -51,6 +51,16 @@ function summary_open_close_shelve_cond(){
     }
 }
 
+function fn_transition(__id) {
+    let seek = document.getElementById(__id);
+    if ( seek.style.opacity == '1') {
+        seek.style.opacity = '0';
+    }
+    else {
+        seek.style.opacity = '1';
+    }
+}
+
 function contact_open_close_shelve_cond() {
     // var style_logo = eve_logo.style.display
     let cont_sec = document.getElementById('id_sec_contact');
@@ -65,6 +75,11 @@ function contact_open_close_shelve_cond() {
     }
     
 }
+
+function fn_go_to(__id){
+    document.getElementById(__id).scrollIntoView();
+}
+
 
 function go_to_doing(){
     document.getElementById('id_doing').scrollIntoView();
