@@ -38,6 +38,8 @@ body {
   padding: 4px 12px;
   margin: 0;
   nav-left: 0;
+  position: sticky;
+  top: 0;
 }
 
 .navbar_menu {
