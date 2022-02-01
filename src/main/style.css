@@ -7,6 +7,11 @@ li {
 a {
   all: unset;
 }
+button {
+  all: unset;
+  padding: 5px 15px;
+  font-size: 30px;
+}
 
 body {
   background-color: black;
@@ -50,10 +55,16 @@ body {
 .p1 {
   font-size: 100px;
   text-align: left;
-  color: darkgreen;
   background: linear-gradient(145deg, #ffffff 0%, rgba(12, 12, 12, 0.137) 75%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+#id_eve_logo {
+  display: none;
+}
+#id_bu_logo {
+  display: none;
 }
 
 .content {

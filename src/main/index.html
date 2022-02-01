@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="http://fonts.cdnfonts.com/css/8bit-wonder?styles=29762" rel="stylesheet">
-    <style>
-        @import url('http://fonts.cdnfonts.com/css/8bit-wonder?styles=29762');
-    </style>
+    <style> @import url('http://fonts.cdnfonts.com/css/8bit-wonder?styles=29762'); </style>
+    <script src="./modules/temp.js"></script>
     <title>Mino's Page</title>
 </head>
 <body>
@@ -28,18 +27,21 @@
         <h1 class="p1" id="mytext" > 
             Glad to Meet You 
         </h1>
-        <section class="doing">
-            <h2>Doing</h2>
-            <li class="eve_logo">
+        <td></td>
+        <section class="doing" id="id_doing">
+            <button onclick="return doing_open_close_shelve_cond()">Doing</button>
+            <h2 id="h2_doing"></h2>
+            <li class="eve_logo" id="id_eve_logo">
                 <a href="https://eve.shiftup.co.kr">
                     <img src="./icons/eve_logo.png" class="eve_logo">
                 </a>
             </li>
         </section>
         <section class="done">
-            <h2>Done</h2>
+            <button onclick="return done_open_close_shelve_cond()"">Done</button>
+            <h2 id="h2_done"></h2>
             <a href="https://blessunleashed.com/">
-                <img src="./icons/bu_logo.png" class="bu_logo" width="500" height="100">
+                <img src="./icons/bu_logo.png" id="id_bu_logo" class="bu_logo" width="500" height="100">
             </a>
         </section>
         <section class="learning">
