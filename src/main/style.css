@@ -11,6 +11,8 @@ li {
 a {
   all: unset;
   padding: 2%;
+  margin: 5% 5%;
+  /* pointer-events: none; */
 }
 a:hover {
   background: black;
@@ -37,6 +39,10 @@ body {
   align-self: center;
   box-shadow: 50px 200px 50px 50px rgb(8, 8, 8);
   animation: shelveComeOut 1s ease;
+}
+img {
+  width: 400px;
+  height: inherit;
 }
 
 .title2 {
@@ -132,9 +138,15 @@ body {
 }
 .contact {
   color: white;
-  padding: 5% 5%;
+  padding: 1% 1%;
   height: auto;
 }
 .contact li {
-  padding: 2%;
+  padding: 2% 2%;
+}
+
+.contact img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
 }
