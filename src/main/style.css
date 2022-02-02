@@ -15,7 +15,7 @@ a {
   /* pointer-events: none; */
 }
 a:hover {
-  background: black;
+  background: rgba(0, 0, 0, 0);
   color: blueviolet;
   transition-duration: 0.3s;
 }
@@ -43,6 +43,10 @@ body {
 img {
   width: 400px;
   height: inherit;
+}
+p {
+  font-size: 12px;
+  text-align: inherit;
 }
 
 .title2 {
@@ -111,11 +115,13 @@ img {
 #id_eve_logo {
   opacity: 0;
   transition-duration: 0.3s;
+  pointer-events: none;
 }
 
 #id_bu_logo {
   opacity: 0;
   transition-duration: 0.3s;
+  pointer-events: none;
 }
 #id_summary_sub {
   opacity: 0;
@@ -125,6 +131,22 @@ img {
 #id_sec_contact {
   transition-duration: 0.5s;
   opacity: 0;
+  margin: 5% 5%;
+}
+#id_mail_section {
+  margin: 5% 5%;
+}
+#id_skills {
+  transition-duration: 0.5s;
+  opacity: 0;
+  pointer-events: none;
+}
+
+#id_mail_mino {
+  margin: 1% 5%;
+}
+#id_mail_narr {
+  margin: 2% 5%;
 }
 .content {
   margin: 0% 1%;

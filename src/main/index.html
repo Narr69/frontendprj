@@ -24,7 +24,7 @@
         <section class="intro">
             <h1 class="p1" id="mytext" >Glad to Meet You</h1>
             <button id="id_summary" onclick="return fn_transition('id_summary_sub')">see summary
-                <div id="id_summary_sub">뭐시기가 어쩌구...뭐시깽이가 저쩌구...</div>
+                <div id="id_summary_sub"></div>
             </button>
         </section>
         <section class="doing" id="id_doing">
@@ -46,17 +46,26 @@
             </li>
         </section>
         <section class="skills">
-            <button onclick="return fn_transition('id_skills')">Skills</button>
-            <ul id="id_skills">
-                <a href="https://github.com/MINOMINOMI/ScriptSet" class="">DCC Scripts</a>
-                <a href="#" class="">Unreal Engine</a>
-                <a href="#">Python</a>
-            </ul>
+            <button onclick="return fn_transition('container')">Skills</button>
+            <div id="container">
+                <div>DCC Scripts
+                    <a href="#">Show Repository of MAXScript / Python / MEL</a>
+                </div>
+                <div>Shaders 
+                    <a href="#">Show Artworks at </a>
+                </div>
+            </div>
         </section>
         <h2 class="contactMain">
             <button onclick="return fn_transition('id_sec_contact')">Contact</button>
         </h2>
         <section class="contact" id="id_sec_contact">
+            <div id="id_mail_mino">
+                <a href="mailto:minomi7029@gmail.com">Technical Artist : minomi7029@gmail.com</a>
+            </div>
+            <div id="id_mail_narr">
+                <a href="mailto:narrchan69@gmail.com">Not Game Buissnese : narrchan69@gmail.com</a>
+            </div>  
             <ul>
                 <a href="https://www.artstation.com/minoming"> <!--Art Station Link-->
                     <img src="./icons/art_station_ic.png">
@@ -71,8 +80,7 @@
                     <img src="./icons/instagram_icon.png">
                 </a>
             </ul>
-            <p>email : minomi7029@gmail.com</p>
-            <p>email : narrchan69@gmail.com</p>
+  
         </section>
     </section>
 
