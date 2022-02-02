@@ -1,0 +1,14 @@
+{
+    "include": [
+        "src/main/modules/type/*.ts"
+    ],
+    "exclude": [
+        "node_modules"   
+    ],
+    "compilerOptions": {
+        "module": "Commonjs",
+        "rootDir": "src/main/modules/type",
+        "outDir": "src/main",
+        "target": "es6"
+    }
+}
