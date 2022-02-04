@@ -33,7 +33,7 @@ body {
   background-color: black;
   font-family: "8BIT WONDER", sans-serif;
   size: 50px;
-  margin: 1% 20%;
+  margin: 5% 5%;
   color: white;
   /* height: 4000px; */
   align-self: center;
@@ -60,25 +60,21 @@ p {
 
 .navbar {
   display: flex;
-  align-items: center;
-  background-color: rgb(34, 34, 34);
+  background-color: rgba(114, 114, 114, 0.561);
   /* padding: 4px 12px; */
-  margin: 0;
-  nav-left: 0;
   position: sticky;
   top: 0;
+  /* justify-content: center; */
 }
 
 .navbar_menu {
   display: flex;
-  /* list-style: none; */
-  max-width: 100%;
   height: auto;
-  align-content: center;
 }
-
-.navbar_menu li {
-  padding: 10% 2%;
+.nav1 {
+  margin: 5% 2%;
+  display: flex;
+  /* font-size: large; */
 }
 
 .p1 {
@@ -89,7 +85,7 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: gradient 15s ease infinite;
-  animation: shelveComeOut 5s ease;
+  /* animation: shelveComeOut 5s ease; */
 }
 @keyframes gradient {
   0% {
@@ -126,7 +122,11 @@ p {
 #id_summary_sub {
   opacity: 0;
   transition-duration: 0.3s;
-  animation: shelveComeOut 3s ease;
+  /* animation: shelveComeOut 3s ease; */
+}
+#id_about_eve {
+  opacity: 0;
+  transition-duration: 0.3s;
 }
 #id_sec_contact {
   transition-duration: 0.5s;
@@ -168,7 +168,19 @@ p {
 }
 
 .contact img {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   object-fit: cover;
+}
+
+#id_discription_eve {
+  font-size: 12px;
+  color: blanchedalmond;
+  /* transition-duration: 0.3s; */
+}
+
+.shiftup {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  color: #00ff55;
 }

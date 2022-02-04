@@ -13,28 +13,44 @@
 <body>
     <nav class="navbar">
         <div class="navbar_menu">
-            <li><a href="#">Home</a></li>
-            <li><a onclick="return fn_go_to('id_doing')">Doing</a></li>
-            <li><a onclick="return fn_go_to('id_done')">Done</a></li>
-            <li><a onclick="return fn_go_to('id_learning')">Learning</a></li>
-            <li><a onclick="return fn_go_to('id_sec_contact')">Contact</a></li>
+            <a class="nav1" href="#">Home</a>
+            <a class="nav1" onclick="return fn_go_to('id_doing')">Doing</a>
+            <a class="nav1" onclick="return fn_go_to('id_done')">Done</a>
+            <a class="nav1" onclick="return fn_go_to('id_learning')">Learning</a>
+            <a class="nav1" onclick="return fn_go_to('id_sec_contact')">Contact</a>
         </div>
     </nav>
     <section class="content">
         <section class="intro">
             <h1 class="p1" id="mytext" >Glad to Meet You</h1>
-            <button id="id_summary" onclick="return fn_transition('id_summary_sub')">see summary
-                <div id="id_summary_sub"></div>
-            </button>
+            <button id="id_summary" onclick="return fn_transition('id_summary_sub')">Introduction</button>
+            <details id="id_summary_sub">
+                <summary>About Me</summary>
+                <span>
+                    I'm currently working as a technical artist in Korean game industry <br>
+                    You can see detailed stuffs I've done
+                </span>
+            </details>
+
         </section>
         <section class="doing" id="id_doing">
-            <button onclick="return fn_transition('id_eve_logo')">Doing</button>
+            <button onclick=" fn_transition('id_eve_logo'); fn_transition('id_about_eve');">Doing</button>
             <h2 id="h2_doing"></h2>
             <li class="eve_logo" id="id_eve_logo">
                 <a href="https://eve.shiftup.co.kr">
                     <img src="./icons/eve_logo.png" class="eve_logo">
                 </a>
             </li>
+            <details id="id_about_eve">
+                <summary>About this</summary>
+                <span id="id_discription_eve">
+                    <br>Project EVE is a PS5 single action game <br>
+                    I'm working as a technical artist for <a class="shiftup" href="https://shiftup.co.kr">2nd EVE Studio, shiftup</a> <br>
+                    I've involved in <br>
+                    Shader / Technical Animation / Scripting / ETC... <br> <br>
+                    in addition, I re-made the web-site that you can see by clicking the project logo <br>
+                </span>
+            </details>
         </section>
         <section class="done" id="id_done">
             <button onclick="return fn_transition('id_bu_logo')">Done</button>
@@ -44,17 +60,10 @@
                     <img src="./icons/bu_logo.png" >
                 </a>
             </li>
-        </section>
-        <section class="skills">
-            <button onclick="return fn_transition('container')">Skills</button>
-            <div id="container">
-                <div>DCC Scripts
-                    <a href="#">Show Repository of MAXScript / Python / MEL</a>
-                </div>
-                <div>Shaders 
-                    <a href="#">Show Artworks at </a>
-                </div>
-            </div>
+            <details>
+                <summary>About this</summary>
+                <span>Bless Unleashed is action MMORPG</span>
+            </details>
         </section>
         <h2 class="contactMain">
             <button onclick="return fn_transition('id_sec_contact')">Contact</button>
@@ -64,7 +73,7 @@
                 <a href="mailto:minomi7029@gmail.com">Technical Artist : minomi7029@gmail.com</a>
             </div>
             <div id="id_mail_narr">
-                <a href="mailto:narrchan69@gmail.com">Not Game Buissnese : narrchan69@gmail.com</a>
+                <a href="mailto:narrchan69@gmail.com">General : narrchan69@gmail.com</a>
             </div>  
             <ul>
                 <a href="https://www.artstation.com/minoming"> <!--Art Station Link-->
