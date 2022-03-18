@@ -216,3 +216,9 @@ p {
   color: #00ff55;
   font-family: "8BIT WONDER", sans-serif;
 }
+
+.cv_link {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  color: #00ff55;
+}

@@ -17,3 +17,8 @@ function fn_go_to(__id: string){
 function fn_disable_anchor(__id: string){
     let seek = document.getElementById(__id)
 }
+
+function string_to_float(__string: string){
+    let seek = parseFloat(__string);
+    return seek;
+}
