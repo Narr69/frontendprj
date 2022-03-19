@@ -14,16 +14,16 @@
     <nav class="navbar">
         <div class="navbar_menu">
             <a class="nav1" href="#">Home</a>
-            <a class="nav1" onclick="return fn_go_to('id_doing')">Doing</a>
-            <a class="nav1" onclick="return fn_go_to('id_done')">Done</a>
-            <a class="nav1" onclick="return fn_go_to('id_learning')">Learning</a>
-            <a class="nav1" onclick="return fn_go_to('id_sec_contact')">Contact</a>
+            <a class="nav1" onclick="fn_go_to('id_doing')">Doing</a>
+            <a class="nav1" onclick="fn_go_to('id_done')">Done</a>
+            <a class="nav1" onclick="fn_go_to('id_learning')">Learning</a>
+            <a class="nav1" onclick="fn_go_to('id_sec_contact')">Contact</a>
         </div>
     </nav>
     <section class="content">
         <section class="intro">
             <h1 class="p1" id="mytext" >Glad to Meet You</h1>
-            <button id="id_summary" onclick="return fn_transition('id_summary_sub')">Introduction</button>
+            <button id="id_summary" onclick="fn_transition('id_summary_sub')">Introduction</button>
             <details id="id_summary_sub">
                 <summary>About Me</summary>
                 <span>
@@ -38,7 +38,7 @@
             <button onclick=" fn_transition('id_eve_logo'); fn_transition('id_about_eve');">Doing</button>
             <h2 id="h2_doing"></h2>
             <li class="eve_logo" id="id_eve_logo">
-                <a href="https://eve.shiftup.co.kr">
+                <a href="https://eve.shiftup.co.kr" target="_blank">
                     <img src="./icons/eve_logo.png" class="eve_logo">
                 </a>
             </li>
@@ -95,10 +95,10 @@
                 <a href="https://www.Github.com/MINOMINOMI"> <!--Git Hub Link-->
                     <img src="./icons/github.svg">
                 </a>
-                <a href="https://www.linkedin.com/in/mino-jang-3a53b914b/">
+                <a onclick="open_in_new_tab('https://www.linkedin.com/in/mino-jang-3a53b914b/')">
                     <img src="./icons/linkedin.png">
                 </a>
-                <a href="https://www.instagram.com/notpigmino/">
+                <a onclick="open_in_new_tab('https://www.instagram.com/notpigmino/')">
                     <img src="./icons/instagram_icon.png">
                 </a>
             </ul>

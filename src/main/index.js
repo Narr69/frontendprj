@@ -19,3 +19,8 @@ function string_to_float(__string) {
     let seek = parseFloat(__string);
     return seek;
 }
+
+function open_in_new_tab(url) {
+    var win = window.open(url, '_blank');
+    win.focus();
+}
