@@ -21,12 +21,18 @@ a:hover {
 }
 button {
   all: unset;
-  padding: 2%;
+  padding: 5%;
   font-size: 30px;
 }
 button:hover {
   color: blueviolet;
   transition-duration: 0.3s;
+}
+div {
+  margin: 30px 15px;
+}
+summary {
+  margin: 5% 5%;
 }
 
 body {
@@ -237,4 +243,14 @@ p {
 
 .learning_list {
   align-items: center;
+}
+
+.next_move {
+  font-size: 50px;
+  margin: 50px 50px;
+}
+
+#id_doing_new {
+  margin: 5%;
+  padding: 5%;
 }
