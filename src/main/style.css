@@ -142,7 +142,12 @@ p {
 #id_skills {
   transition-duration: 0.5s;
   opacity: 0;
-  pointer-events: none;
+  /* pointer-events: none; */
+}
+#id_sec_learning {
+  transition-duration: 0.5s;
+  opacity: 0;
+  /* pointer-events: none; */
 }
 
 #id_mail_mino {
@@ -221,4 +226,15 @@ p {
   margin: 0px 0px;
   padding: 0px 0px;
   color: #00ff55;
+}
+
+.Learning {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  color:white;
+  text-align: center;
+}
+
+.learning_list {
+  align-items: center;
 }
