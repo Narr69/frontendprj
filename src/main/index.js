@@ -24,3 +24,10 @@ function open_in_new_tab(url) {
     var win = window.open(url, '_blank');
     win.focus();
 }
+
+function calc_window_size() {
+    let width = window.innerWidth;
+    let height = window.innerHeight;
+    let ratio = width / height;
+    return ratio;
+}
