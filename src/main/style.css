@@ -36,9 +36,12 @@ summary {
 }
 body {
   background-color: black;
+  max-width: 1080px;
+  min-width: 600px;
   font-family: "8BIT WONDER", sans-serif;
   color: white;
   margin: 3% 20%;
+  /* padding: 3% 5%; */
   align-self: center;
   box-shadow: 10px 200px 50px 50px rgb(8, 8, 8);
   animation: shelveComeOut 1s ease;
