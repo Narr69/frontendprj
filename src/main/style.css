@@ -34,32 +34,18 @@ div {
 summary {
   margin: 5% 5%;
 }
-@media screen and (min-width: 768px) {
-  body {
-    background-color: black;
-    font-family: "8BIT WONDER", sans-serif;
-    size: 100%;
-    margin: 5%;
-    color: white;
-    /* height: 4000px; */
-    align-self: center;
-    box-shadow: 50px 200px 50px 50px rgb(8, 8, 8);
-    animation: shelveComeOut 1s ease;
-  }
-}
 body {
   background-color: black;
   font-family: "8BIT WONDER", sans-serif;
   color: white;
-  /* height: 4000px; */
-  margin: 0% 0%;
+  margin: 3% 20%;
   align-self: center;
   box-shadow: 10px 200px 50px 50px rgb(8, 8, 8);
   animation: shelveComeOut 1s ease;
 }
 
 img {
-  width: 400px;
+  width: 100%;
   height: inherit;
 }
 p {
@@ -77,21 +63,21 @@ p {
 }
 
 .navbar {
-  display: flex;
-  background-color: rgba(114, 114, 114, 0.561);
-  /* padding: 4px 12px; */
+  background-color: rgba(114, 114, 114, 0.359);
+  padding: 0% 0%;
   position: sticky;
   top: 0;
-  /* justify-content: center; */
+  margin: 0% 0%;
 }
 
 .navbar_menu {
   display: flex;
   height: auto;
+  justify-content: center;
 }
 .nav1 {
-  margin: 5% 2%;
-  display: flex;
+  margin: 2% 0%;
+  /* display: flex; */
   /* font-size: large; */
 }
 
@@ -169,7 +155,7 @@ p {
 }
 
 #id_mail_mino {
-  margin: 1% 5%;
+  margin: 1% 2%;
 }
 #id_mail_narr {
   margin: 2% 5%;
